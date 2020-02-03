@@ -6,4 +6,9 @@
     Private Sub Name_Label_Click(sender As Object, e As EventArgs) Handles Name_Label.Click
 
     End Sub
+
+    Private Sub Start_Button_Click(sender As Object, e As EventArgs) Handles Start_Button.Click
+        Intro_Form.Show()
+        Me.Hide()
+    End Sub
 End Class

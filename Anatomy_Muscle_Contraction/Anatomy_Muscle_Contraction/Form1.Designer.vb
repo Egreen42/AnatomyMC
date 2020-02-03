@@ -27,6 +27,7 @@ Partial Class Starting_Page
         Me.Exit_Button = New System.Windows.Forms.Button()
         Me.Muscle_Contraction_Label = New System.Windows.Forms.Label()
         Me.Name_Label = New System.Windows.Forms.Label()
+        Me.Form_Size = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Start_Button
@@ -80,6 +81,16 @@ Partial Class Starting_Page
         Me.Name_Label.Text = "By: Ethan Green and Makaylee Coapstick"
         Me.Name_Label.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
+        'Form_Size
+        '
+        Me.Form_Size.AutoSize = True
+        Me.Form_Size.BackColor = System.Drawing.Color.Transparent
+        Me.Form_Size.Location = New System.Drawing.Point(28, 155)
+        Me.Form_Size.Name = "Form_Size"
+        Me.Form_Size.Size = New System.Drawing.Size(240, 13)
+        Me.Form_Size.TabIndex = 7
+        Me.Form_Size.Text = "Please don't change the window size at any point"
+        '
         'Starting_Page
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -87,6 +98,7 @@ Partial Class Starting_Page
         Me.BackgroundImage = Global.Anatomy_Muscle_Contraction.My.Resources.Resources.Muscle_Man
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Form_Size)
         Me.Controls.Add(Me.Name_Label)
         Me.Controls.Add(Me.Muscle_Contraction_Label)
         Me.Controls.Add(Me.Exit_Button)
@@ -103,4 +115,5 @@ Partial Class Starting_Page
     Friend WithEvents Exit_Button As Button
     Friend WithEvents Muscle_Contraction_Label As Label
     Friend WithEvents Name_Label As Label
+    Friend WithEvents Form_Size As Label
 End Class
