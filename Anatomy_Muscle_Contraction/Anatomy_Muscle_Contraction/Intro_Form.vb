@@ -37,7 +37,12 @@
     End Sub
 
     Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
+        Timer2.Stop()
         Question1.Show()
         Me.Hide()
+    End Sub
+
+    Private Sub Intro_Form_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

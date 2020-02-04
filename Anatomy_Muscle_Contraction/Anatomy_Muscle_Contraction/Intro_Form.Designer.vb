@@ -28,9 +28,9 @@ Partial Class Intro_Form
         Me.BodyLabel2 = New System.Windows.Forms.Label()
         Me.BodyLabel3 = New System.Windows.Forms.Label()
         Me.Answer_GB = New System.Windows.Forms.GroupBox()
-        Me.No_RB = New System.Windows.Forms.RadioButton()
-        Me.Maybe_RB = New System.Windows.Forms.RadioButton()
         Me.Yes_RB = New System.Windows.Forms.RadioButton()
+        Me.Maybe_RB = New System.Windows.Forms.RadioButton()
+        Me.No_RB = New System.Windows.Forms.RadioButton()
         Me.Submit_Button = New System.Windows.Forms.Button()
         Me.No_Label = New System.Windows.Forms.Label()
         Me.Maybe_Label = New System.Windows.Forms.Label()
@@ -81,16 +81,16 @@ Partial Class Intro_Form
         Me.Answer_GB.TabIndex = 3
         Me.Answer_GB.TabStop = False
         '
-        'No_RB
+        'Yes_RB
         '
-        Me.No_RB.AutoSize = True
-        Me.No_RB.Location = New System.Drawing.Point(23, 33)
-        Me.No_RB.Name = "No_RB"
-        Me.No_RB.Size = New System.Drawing.Size(39, 17)
-        Me.No_RB.TabIndex = 0
-        Me.No_RB.TabStop = True
-        Me.No_RB.Text = "No"
-        Me.No_RB.UseVisualStyleBackColor = True
+        Me.Yes_RB.AutoSize = True
+        Me.Yes_RB.Location = New System.Drawing.Point(23, 81)
+        Me.Yes_RB.Name = "Yes_RB"
+        Me.Yes_RB.Size = New System.Drawing.Size(46, 17)
+        Me.Yes_RB.TabIndex = 2
+        Me.Yes_RB.TabStop = True
+        Me.Yes_RB.Text = "Yes!"
+        Me.Yes_RB.UseVisualStyleBackColor = True
         '
         'Maybe_RB
         '
@@ -103,16 +103,16 @@ Partial Class Intro_Form
         Me.Maybe_RB.Text = "Maybe?"
         Me.Maybe_RB.UseVisualStyleBackColor = True
         '
-        'Yes_RB
+        'No_RB
         '
-        Me.Yes_RB.AutoSize = True
-        Me.Yes_RB.Location = New System.Drawing.Point(23, 81)
-        Me.Yes_RB.Name = "Yes_RB"
-        Me.Yes_RB.Size = New System.Drawing.Size(46, 17)
-        Me.Yes_RB.TabIndex = 2
-        Me.Yes_RB.TabStop = True
-        Me.Yes_RB.Text = "Yes!"
-        Me.Yes_RB.UseVisualStyleBackColor = True
+        Me.No_RB.AutoSize = True
+        Me.No_RB.Location = New System.Drawing.Point(23, 33)
+        Me.No_RB.Name = "No_RB"
+        Me.No_RB.Size = New System.Drawing.Size(39, 17)
+        Me.No_RB.TabIndex = 0
+        Me.No_RB.TabStop = True
+        Me.No_RB.Text = "No"
+        Me.No_RB.UseVisualStyleBackColor = True
         '
         'Submit_Button
         '
