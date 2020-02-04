@@ -107,6 +107,12 @@
     <Compile Include="Question1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Question2.Designer.vb">
+      <DependentUpon>Question2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question2.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Landing.resx">

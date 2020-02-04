@@ -22,15 +22,18 @@ Partial Class Question1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.BodyLabel = New System.Windows.Forms.Label()
         Me.QuestionGB = New System.Windows.Forms.GroupBox()
-        Me.AP_RB = New System.Windows.Forms.RadioButton()
-        Me.MN_RB = New System.Windows.Forms.RadioButton()
         Me.IDK_RB = New System.Windows.Forms.RadioButton()
+        Me.MN_RB = New System.Windows.Forms.RadioButton()
+        Me.AP_RB = New System.Windows.Forms.RadioButton()
         Me.AP_Label = New System.Windows.Forms.Label()
         Me.MN_Label = New System.Windows.Forms.Label()
         Me.IDK_Label = New System.Windows.Forms.Label()
         Me.Submit_Button = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.QuestionGB.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -55,16 +58,16 @@ Partial Class Question1
         Me.QuestionGB.TabIndex = 1
         Me.QuestionGB.TabStop = False
         '
-        'AP_RB
+        'IDK_RB
         '
-        Me.AP_RB.AutoSize = True
-        Me.AP_RB.Location = New System.Drawing.Point(30, 20)
-        Me.AP_RB.Name = "AP_RB"
-        Me.AP_RB.Size = New System.Drawing.Size(99, 17)
-        Me.AP_RB.TabIndex = 0
-        Me.AP_RB.TabStop = True
-        Me.AP_RB.Text = "Action Potential"
-        Me.AP_RB.UseVisualStyleBackColor = True
+        Me.IDK_RB.AutoSize = True
+        Me.IDK_RB.Location = New System.Drawing.Point(30, 68)
+        Me.IDK_RB.Name = "IDK_RB"
+        Me.IDK_RB.Size = New System.Drawing.Size(43, 17)
+        Me.IDK_RB.TabIndex = 2
+        Me.IDK_RB.TabStop = True
+        Me.IDK_RB.Text = "IDK"
+        Me.IDK_RB.UseVisualStyleBackColor = True
         '
         'MN_RB
         '
@@ -77,16 +80,16 @@ Partial Class Question1
         Me.MN_RB.Text = "Motor Neuron"
         Me.MN_RB.UseVisualStyleBackColor = True
         '
-        'IDK_RB
+        'AP_RB
         '
-        Me.IDK_RB.AutoSize = True
-        Me.IDK_RB.Location = New System.Drawing.Point(30, 68)
-        Me.IDK_RB.Name = "IDK_RB"
-        Me.IDK_RB.Size = New System.Drawing.Size(43, 17)
-        Me.IDK_RB.TabIndex = 2
-        Me.IDK_RB.TabStop = True
-        Me.IDK_RB.Text = "IDK"
-        Me.IDK_RB.UseVisualStyleBackColor = True
+        Me.AP_RB.AutoSize = True
+        Me.AP_RB.Location = New System.Drawing.Point(30, 20)
+        Me.AP_RB.Name = "AP_RB"
+        Me.AP_RB.Size = New System.Drawing.Size(99, 17)
+        Me.AP_RB.TabIndex = 0
+        Me.AP_RB.TabStop = True
+        Me.AP_RB.Text = "Action Potential"
+        Me.AP_RB.UseVisualStyleBackColor = True
         '
         'AP_Label
         '
@@ -131,6 +134,12 @@ Partial Class Question1
         Me.Submit_Button.Text = "Submit"
         Me.Submit_Button.UseVisualStyleBackColor = True
         '
+        'Timer1
+        '
+        '
+        'Timer2
+        '
+        '
         'Question1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -162,4 +171,6 @@ Partial Class Question1
     Friend WithEvents MN_Label As Label
     Friend WithEvents IDK_Label As Label
     Friend WithEvents Submit_Button As Button
+    Friend WithEvents Timer1 As Timer
+    Friend WithEvents Timer2 As Timer
 End Class
