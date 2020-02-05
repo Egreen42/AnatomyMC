@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="RTT_Label.Text" xml:space="preserve">
+    <value>Correct: As said before the T tubules are what trigger the calcium ion flood in but it’s actually from the terminal cisternae of the sarcoplasmic reticulum in which fully releases the calcium. Calcium that was released then bonds to troponin molecules of the troponin complex. The complex then falls off and an active site on actin molecules.</value>
+  </data>
   <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>

@@ -118,13 +118,76 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Synaptic Terminal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Synaptic Terminal.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Jumping" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Jumping.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Muscle Man" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Muscle Man.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Running" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Running.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Sad Ramsay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sad Ramsay.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Turk_Leaving" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Turk_Leaving.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Disc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Disc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumbs up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumbs up.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T-pose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T-pose.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="House_no" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\House_no.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Muscle Face" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Muscle Face.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Trump_Wrong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Trump_Wrong.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backbent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Backbent.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="You_Fool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\You_Fool.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Up.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Not_Amused" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Not_Amused.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2_People" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2_People.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tried" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tried.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ROCKROCKROCKROCK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ROCKROCKROCKROCK.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Running_at" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Running_at.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flex.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ACh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ACh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Runningstart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Runningstart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Punching" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Punching.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="RTT_Label.Text" xml:space="preserve">
+    <value>Correct: The contraction has been in progress and is just about over. There is movement in the sarcomere and things are tightening ready to snap with the help of the myosin head. After rushing to the middle the myosin head will then detach and bind to ATP which provides energy for the myosin head to keep going until all the energy provided ceases to exist ending the contraction. Then finally concluding the cycle of contraction and the entire cycle</value>
+  </data>
   <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>

@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="MCIOC_Label.Text" xml:space="preserve">
+    <value>ACh or acetylcholine is a neurotransmitter that communicates with other cells and changes features of another cell’s membrane. ACh’s release from the synaptic terminal leads to changes in the sarcolemma that will trigger the contraction of the muscle fiber. In other words, ACh has a very important role even being so early in the process.   </value>
+  </data>
+  <data name="CTMN_Label.Text" xml:space="preserve">
+    <value>Close but not correct the ACh is a neurotransmitter similar name to the motor neuron and they both deal with connection. The ACh does not directly affect the motor neuron though it sends other connections and the motor neurons connections are what help affect the ACh.</value>
+  </data>
   <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>

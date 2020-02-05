@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Finish.Designer.vb">
+      <DependentUpon>Finish.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Finish.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Landing.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -107,14 +113,71 @@
     <Compile Include="Question1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Question10.Designer.vb">
+      <DependentUpon>Question10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question11.Designer.vb">
+      <DependentUpon>Question11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question11.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Question2.Designer.vb">
       <DependentUpon>Question2.vb</DependentUpon>
     </Compile>
     <Compile Include="Question2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Question3.Designer.vb">
+      <DependentUpon>Question3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question4.Designer.vb">
+      <DependentUpon>Question4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question5.Designer.vb">
+      <DependentUpon>Question5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question6.Designer.vb">
+      <DependentUpon>Question6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question7.Designer.vb">
+      <DependentUpon>Question7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question8.Designer.vb">
+      <DependentUpon>Question8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question9.Designer.vb">
+      <DependentUpon>Question9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question9.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Finish.resx">
+      <DependentUpon>Finish.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Landing.resx">
       <DependentUpon>Landing.vb</DependentUpon>
     </EmbeddedResource>
@@ -130,8 +193,35 @@
     <EmbeddedResource Include="Question1.resx">
       <DependentUpon>Question1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Question10.resx">
+      <DependentUpon>Question10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question11.resx">
+      <DependentUpon>Question11.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Question2.resx">
       <DependentUpon>Question2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question3.resx">
+      <DependentUpon>Question3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question4.resx">
+      <DependentUpon>Question4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question5.resx">
+      <DependentUpon>Question5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question6.resx">
+      <DependentUpon>Question6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question7.resx">
+      <DependentUpon>Question7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question8.resx">
+      <DependentUpon>Question8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question9.resx">
+      <DependentUpon>Question9.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -154,6 +244,69 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Muscle Face.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Runningstart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\You_Fool.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flex.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Not_Amused.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Synaptic Terminal.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jumping.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ACh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_People.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Backbent.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sad Ramsay.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Up.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ROCKROCKROCKROCK.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Disc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Turk_Leaving.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\House_no.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Running_at.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trump_Wrong.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T-pose.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tried.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thumbs up.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Punching.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

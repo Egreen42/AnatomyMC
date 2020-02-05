@@ -21,7 +21,7 @@
             Else
                 Starting_Page.Wrong = Starting_Page.Wrong + 1
             End If
-            Timer2.Interval = 10000
+            Timer2.Interval = 5000
             Timer2.Start()
         End If
     End Sub

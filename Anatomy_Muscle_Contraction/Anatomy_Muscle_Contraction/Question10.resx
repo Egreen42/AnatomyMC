@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="RTT_Label.Text" xml:space="preserve">
+    <value>Correct:  After the myosin bridge is formed a myosin head on both sides from the thick filament rushes towards the center of the sarcomere which pulls and shortens the zone of overlap from the filaments. This then releases ADP and a phosphate group which is energy releasers that were present when the sarcomere was in its state of relaxation before anything was in effect.  </value>
+  </data>
   <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
